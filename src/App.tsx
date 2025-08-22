@@ -211,7 +211,7 @@ function App() {
   );
 
   const handleFile = (file: File | null) => {
-    setError(null);
+    setError(null); 
     setJsonData(null);
     setSearchTerm('');
     setMatchedPaths([]);
